@@ -11,8 +11,8 @@ microservice:
   employee-service:
     endpoints:
       endpoint:
-        uri: http://Employee Service/api/v1/employee/add-employee
+        uri: http://Employee-Service/api/v1/employee/add-employee
   technology-service:
     endpoints:
       endpoint:
-        uri: http://Technology Service/api/v1/technology/add-technology
+        uri: http://Technology-Service/api/v1/technology/add-technology
