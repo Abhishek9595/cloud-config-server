@@ -1,0 +1,18 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      instance:
+      hostname: localhost
+
+microservice:
+  employee-service:
+    endpoints:
+      endpoint:
+        uri: http://Employee Service/api/v1/employee/add-employee
+  technology-service:
+    endpoints:
+      endpoint:
+        uri: http://Technology Service/api/v1/technology/add-technology
