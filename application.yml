@@ -8,11 +8,11 @@ eureka:
       hostname: localhost
 
 microservice:
-  employee-service:
+  payment-service:
     endpoints:
       endpoint:
-        uri: http://Employee-Service/api/v1/employee/add-employee
-  technology-service:
+        uri: http://PAYMENT-SERVICE/api/v1/payment/dopayment
+  order-service:
     endpoints:
       endpoint:
-        uri: http://Technology-Service/api/v1/technology/add-technology
+        uri: http://ORDER-SERVICE/api/v1/order/bookorders
